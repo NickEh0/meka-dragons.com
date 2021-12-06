@@ -1,0 +1,89 @@
+
+@-ms-viewport{
+    width: device-width;
+  }
+
+.body {
+    font-family: 'horeliosextra_bold';
+    background-color: black ;
+    margin: 5px;
+    padding: 5px;
+    
+
+
+}
+
+@font-face {
+    font-family: 'horeliosextra_bold';
+    src: url('/css/font/horelios_extrabold-webfont.woff2') format('woff2'),
+         url('/css/font/horelios_extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#pay__eth {
+    border-radius: 30px;
+    border: none;
+    background-color:orange;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    width: 200px;
+    cursor: pointer;
+    box-shadow: rgb(250 250 250 / 30%) 0px 6px 0px -2px;
+    height: 70px;
+    margin: -10px 310px;
+    justify-content: center;
+     margin: auto;
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+.image {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    
+}
+
+
+.momy {
+padding: 20px;
+text-align: center;
+display: block;
+border: 200px;
+height: 10;
+align-items: center;
+
+}
+.text1 {
+    color:white;
+}
+
+.text {
+    text-align: center;
+    font-size: 15px;
+    
+}
+
+.insta {
+    color: orange;
+    text-align: center;
+    
+}
+
+p {
+    font-family: 'horeliosextra_bold';
+    font-size: 12PX;
+}
+
+.hgrPFv {
+font-size: 25px;
+
+
+}
