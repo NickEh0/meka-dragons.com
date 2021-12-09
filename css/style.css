@@ -8,6 +8,10 @@
     background-color: black ;
     margin: 5px;
     padding: 5px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,111,233,1) 35%, rgba(0,212,255,1) 100%);
+
+    
     
 
 
@@ -25,10 +29,10 @@
 #pay__eth {
     border-radius: 30px;
     border: none;
-    background-color:orange;
+    background-color:white;
     padding: 20px;
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: #F46EFB;
     width: 200px;
     cursor: pointer;
     box-shadow: rgb(250 250 250 / 30%) 0px 6px 0px -2px;
@@ -39,7 +43,16 @@
     display: block;
     text-align: center;
     font-size: 25px;
+    cursor: pointer;
     
+}
+
+   
+#pay__eth:hover {
+    background-image: linear-gradient(to right, #16A085 0%, #F4D03F  51%, #16A085  100%)
+}
+#pay__eth:hover {
+    color: white;
 }
 
 .image {
@@ -47,8 +60,8 @@
     height: 50%;
     text-align: center;
     margin: auto;
-    vertical-align: middle;
-    
+    display: block;
+   
 }
 
 
@@ -59,10 +72,18 @@ display: block;
 border: 200px;
 height: 10;
 align-items: center;
+position: relative;
+
+
+
+
+
 
 }
 .text1 {
     color:white;
+    width: 100%;
+    
 }
 
 .text {
@@ -82,8 +103,35 @@ p {
     font-size: 12PX;
 }
 
-.hgrPFv {
-font-size: 25px;
 
-
+.border {
+   height: 420px;
+    width: 400px;
+    margin: 5% auto; 
+    left: 0;
+    right: 0;
 }
+
+.join {
+    text-align: center;
+    font-family: 'horeliosextra_bold';
+}
+ 
+
+.mint {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    margin: auto;
+    display: block;
+   
+}
+.mintday {
+    
+        width: 50%;
+        height: 50%;
+        text-align: center;
+        margin: auto;
+        display: block;
+       
+    }
